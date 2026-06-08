@@ -1,0 +1,10 @@
+msi_gm70_driver
+*.o
+*.so
+*.la
+*.a
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store

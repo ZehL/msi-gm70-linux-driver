@@ -1,0 +1,12 @@
+[Unit]
+Description=MSI GM70 Custom High-Precision Wireless Driver
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/msi_gm70_driver
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target
